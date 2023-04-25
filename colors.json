@@ -1,0 +1,19 @@
+[
+
+  {
+
+    "color": [0, 255, 255],
+
+    "components": ["Example Part Id #1", "Example Part Id #2"]
+
+  },
+
+  {
+
+    "color": [255, 0, 255],
+
+    "components": ["Example Part Id The Implementation Does Not Know About"]
+
+  }
+
+]
