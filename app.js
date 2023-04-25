@@ -29,6 +29,7 @@ function getMxRecords(id) {
 getMxRecords();
 
 app.post('/visualizer/colors', (req, res) => {
+  const requestedComponents = req.body.components;
 
   // Build the response based on an array of component strings
   const response = [];
@@ -44,8 +45,6 @@ app.post('/visualizer/colors', (req, res) => {
   //     "components": ["Example Part Id The Implementation Does Not Know About"]
   //   }
   // ]
-
-  const requestedComponents = req.body.components;
 
   // Loop through the colors object
   for (const color in colors) {
